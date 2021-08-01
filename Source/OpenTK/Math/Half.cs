@@ -96,7 +96,7 @@ namespace OpenTK
         public bool IsPositiveInfinity { get { return (bits == 31744); } }
 
         /// <summary>Returns true if the Half represents negative infinity.</summary>
-        public bool IsNegativeInfinity { get { return (bits == 64512); } }
+        public bool IsNegativeInfinity { get { return (bits == UInt16.MaxValue); } }
 
         #endregion Properties
 
